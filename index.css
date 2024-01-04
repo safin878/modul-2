@@ -1,4 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: beige;
+}
+
+
+
 h1{
-    color: wheat;
-    background-color: blue;
+    display: flex;
+    color: blueviolet;
+    justify-content: center;
+}
+.con{
+    display: flex;
+    justify-content: center;
+
+}
+.green{
+    position: absolute;
+    width: 250px;
+    height: 150px;
+    background-color: green;
+    top: 30%;
+    display: flex;
+    justify-content: center;
+    
+   
+}
+
+.red{
+    position: relative;
+    background-color: red;
+    height: 50px;
+    width: 50px;
+    top: 30%;
+    border-radius: 100%;
+    right: -30px;
+}
+.dandi{
+   position: relative;
+   height: 322px;
+   width: 20px;
+   background-color: rgb(32, 32, 31);
+   right: 120px;
+   border-top-right-radius: 50px;
+   top: -15px;
+   
+}
+
+.dandi2{
+    position: relative;
+    height: 20px;
+    width: 70px;
+    background-color: rgb(32, 32, 31);
+    top: 300px;
+    right: 165px;
+    border-radius:10%;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius:20px ;
+
 }
